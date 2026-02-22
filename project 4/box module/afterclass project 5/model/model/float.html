@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<title>example of box module and float</title>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .container {
+        width: 600px;
+        margin: 50px auto;
+        border: 3px solid black;
+        padding: 20px;
+        /* BOX MODEL */
+        background-color: #f2f2f2;
+    }
+
+    .box1 {
+        width: 200px;
+        background-color: violet;
+        padding: 20px;
+        /* PADDING */
+        border: 5px solid purple;
+        /* BOX MODEL */
+        margin: 10px;
+        float: left;
+        /* FLOAT */
+        text-align: center;
+    }
+
+    .box2 {
+        width: 200px;
+        background-color: lightblue;
+        padding: 30px;
+        /* PADDING */
+        border: 5px solid blue;
+        /* BOX MODEL */
+        margin: 10px;
+        float: right;
+        /* FLOAT */
+        text-align: center;
+    }
+
+    .clear {
+        clear: both;
+    }
+</style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="box1">Left Box</div>
+
+        <div class="box2">Right Box</div>
+
+        <div class="clear"></div>
+
+    </div>
+
+</body>
+
+</html>
