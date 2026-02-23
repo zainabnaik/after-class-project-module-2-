@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            height: 2000px;
+        }
+
+        /* Static (default) */
+        .static-box {
+            position: static;
+            background: lightblue;
+            padding: 20px;
+            opacity: 0.8;
+        }
+
+        /* Relative */
+        .relative-box {
+            position: relative;
+            left: 30px;
+            top: 20px;
+            background: lightgreen;
+            padding: 20px;
+            opacity: 0.7;
+        }
+
+        /* Absolute */
+        .absolute-box {
+            position: absolute;
+            top: 150px;
+            left: 200px;
+            background: coral;
+            padding: 20px;
+            opacity: 0.6;
+        }
+
+        /* Fixed */
+        .fixed-box {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: gold;
+            padding: 20px;
+            opacity: 0.9;
+        }
+
+        /* Sticky */
+        .sticky-box {
+            position: sticky;
+            top: 0;
+            background: purple;
+            color: white;
+            padding: 20px;
+            opacity: 0.85;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="sticky-box">Sticky Box</div>
+    <div class="static-box">Static Box</div>
+    <div class="relative-box">Relative Box</div>
+    <div class="absolute-box">Absolute Box</div>
+    <div class="fixed-box">Fixed Box</div>
+
+</body>
+
+</html>
